@@ -128,7 +128,31 @@ progress {
 summary {
   display: list-item;
 }
-h1 {
-  color: blue;
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #fff;
+}
+
+.hamburger {
+  background-color: #333;
+  width: 44px;
+  height: 34px;
+  position: fixed;
+  border-radius: 5px;
+  right: 0;
+  margin: 8px 15px 8px 8px;
+}
+
+.hamburger__container {
+  width: 22px;
+  margin: 8px auto;
+}
+
+.hamburger__bar {
+  background-color: #fff;
+  width: 100%;
+  height: 2px;
+  display: block;
+  margin-bottom: 5px;
 }
 /*# sourceMappingURL=styles.css.map */
