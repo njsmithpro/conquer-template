@@ -1,24 +1,30 @@
-.hamburger {
-
-    background-color: #333;
-    width: 44px;
-    height: 34px;
+nav {
     position: fixed;
-    border-radius: 5px;
-    right: 0;
-    margin: 0px 15px 0px 8px;
-    cursor: pointer;
+    width: 100%;
+    padding: 15px;
 
-    &__container {
-        width: 22px;
-        margin: 8px auto;
-    }
+    .hamburger {
 
-    &__bar {
-        background-color: #fff;
-        width: 100%;
-        height: 2px;
-        display: block;
-        margin-bottom: 5px;
+        background-color: #333;
+        width: 44px;
+        height: 34px;
+        position: absolute;
+        border-radius: 5px;
+        right: 15px;
+        cursor: pointer;
+    
+        &__container {
+            width: 22px;
+            margin: 8px auto;
+        }
+    
+        &__bar {
+            background-color: #fff;
+            width: 100%;
+            height: 2px;
+            display: block;
+            margin-bottom: 5px;
+        }
     }
 }
+
